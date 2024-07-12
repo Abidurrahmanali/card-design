@@ -1,0 +1,102 @@
+.parent1{
+    margin: 20px auto;
+    width: fit-content;
+    margin-bottom: 200px; 
+}
+.row{
+    width: 300px;
+    border: 2px solid rgb(239, 235, 235);
+    border-radius: 20px;
+    display: inline-block;
+    margin: 20px auto;
+    
+    
+
+}
+.row:hover{
+    box-shadow: 8px 10px 6px rgb(79, 91, 94);
+    
+}
+
+.row img{
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+    height: 50%;
+}
+.row p{
+    font-size: 20px;
+    color: rgb(245, 121, 6);
+   
+}
+.content{
+    margin: 12px 10px 15px 10px;
+    line-height: 18px;
+
+}
+.foter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.foter button{
+    
+    border: 1px solid orange;
+    border-radius: 15px;
+    color: red;
+    background: white;
+    transition: 0.6s;
+
+}
+span{
+    color: rgb(141, 136, 136);
+}
+.foter button:hover{
+    background: orange;
+    color: white;
+}
+
+
+
+.rows{
+    width: 300px;
+    border: 2px solid rgb(239, 235, 235);
+    border-radius: 20px;
+    display: inline-block;
+    margin: 20px auto;
+    position: relative;
+    
+}
+.rows:hover{
+    box-shadow: 8px 10px 6px rgb(80, 91, 210);
+}
+.rows::after{
+    content: ' save 2000';
+    width: 65px;
+    height: 20px;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    background-color: rgb(131, 36, 240);
+    top: 13px;
+    left: 0;
+    color: aliceblue;
+}
+.rows img{
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+    
+}
+.under{
+    margin: 10px;
+}
+.under p:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.under h4{
+    font-size: 25px;
+    color: orange;
+}
+.under span{
+    text-decoration: line-through;
+    font-size: 13px;
+}
